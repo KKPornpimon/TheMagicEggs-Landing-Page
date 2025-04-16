@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --main-color: #f7b52b;
+  --highlight: #5fad86;
+}
+
+@layer base {
+
+  * {
+    @apply text-gray-700;
+  }
+  body {
+    @apply bg-[url('/images/element/egg1.jpg')] bg-cover bg-center bg-no-repeat h-screen bg-fixed;
+  }
+
+  #hero2, #about {
+    @apply bg-[var(--main-color)] w-full
+  }
+
+  #hero3 {
+    @apply bg-white/70 w-full
+  }
+
+  .container {
+    @apply mx-auto  px-4 py-8
+  }
+
+}
