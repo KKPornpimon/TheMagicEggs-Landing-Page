@@ -10,10 +10,11 @@ export const NavLinks = [
 
 
 export const InfoEggs = [
-    {label: 'ชนิดไข่', path: '/info'},
-    {label: 'ประเภทไข่', path: '/type'},
+    {label: 'รู้จักกับไข่', path: '/info'},
+    {label: 'ประเภทของไข่', path: '/type'},
+    {label: 'กินไข่อย่างไรได้ประโยชน์', path: '/eat'},
     {label: 'วิธีการต้มไข่', path: '/boil'},
-    {label: 'การเก็บรักษาไข่', path: '/dessert'},
+    {label: 'การเก็บรักษาไข่', path: '/keep'},
     {label: 'การแปรรูปไข่', path: '/adapt'},
 
 ]

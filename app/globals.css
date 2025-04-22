@@ -27,4 +27,33 @@
     @apply mx-auto  px-4 py-8
   }
 
+  /* info egg */
+  .tab-trigger {
+    @apply  data-[state=active]:bg-[var(--main-color)] data-[state=active]:text-white 
+    mx-3 cursor-pointer      
+  }
+  .typeegg {
+    float: left;
+    clip-path: ellipse(40% 50%);
+    shape-outside: ellipse(45% 50%);
+    margin: 15px;
+  }
+  .info-know li {
+    @apply my-2
+  }
+  
+
 }
+
+@theme {
+    --animate-wiggle: wiggle 1.6s ease-in-out infinite;
+    @keyframes wiggle {
+      0%,
+      100% {
+        transform: rotate(-5deg);
+      }
+      50% {
+        transform: rotate(5deg);
+      }
+    }
+  }

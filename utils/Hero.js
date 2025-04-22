@@ -1,29 +1,34 @@
 
 export const HeroSection2Data = [
     {
-        title: "ชนิดของไข่",
+        title: "รู้จักกับไข่",
         image: "/images/element/egg.jpg",
-        link: "/nutrition",
+        link: "/info",
     },
     {
         title: "ประเภทของไข่",
+        image: "/images/element/egg.jpg",
+        link: "/type",
+    },
+    {
+        title: "กินไข่อย่างไรได้ประโยชน์",
         image: "/images/element/egg.png",
-        link: "/nutrition",
+        link: "/eat",
     },
     {
         title: "วิธีการเก็บรักษาไข่",
         image: "/images/element/gude2.png",
-        link: "/nutrition",
+        link: "/keep",
     },
     {
         title: "วิธีการต้มไข่",
         image: "/images/element/gude1.png",
-        link: "/nutrition",
+        link: "/boil",
     },
     {
         title: "วิธีการแปรรูปไข่",
         image: "/images/element/gude4.png",
-        link: "/nutrition",
+        link: "/adapt",
     },
 ]
 

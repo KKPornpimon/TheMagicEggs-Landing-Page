@@ -9,7 +9,6 @@ const Home = () => {
       <Hero />
       <HeroSection2 />
       <HeroSection3 />
-      <Contact />
     </>
   )
 }
