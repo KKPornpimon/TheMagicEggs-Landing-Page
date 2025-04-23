@@ -6,7 +6,7 @@ export const HeroSection2Data = [
         link: "/info",
     },
     {
-        title: "ประเภทของไข่",
+        title: "ชนิดของไข่",
         image: "/images/element/egg.jpg",
         link: "/type",
     },

@@ -4,6 +4,8 @@
 :root {
   --main-color: #f7b52b;
   --highlight: #5fad86;
+  --highlight2: #d93915;
+  --skinegg: #f1cbb5;
 }
 
 @layer base {

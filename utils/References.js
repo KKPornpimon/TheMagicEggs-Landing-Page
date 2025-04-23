@@ -18,6 +18,7 @@ export const RefData = [
     'https://www.samitivejhospitals.com/th/article/detail/%E0%B9%84%E0%B8%82%E0%B9%88-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C',
     
     'ชนิดของไข่',
+    'https://salehere.co.th/articles/kind-of-egg',
     'https://www.greenery.org/g101-egg/',
     'https://multimedia.anamai.moph.go.th/infographics/info348_covid19/',
 
