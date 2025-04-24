@@ -97,15 +97,15 @@ const Info = () => {
                         </div>
 
                         <div className="text-right mt-5 text-[12px]">
-                            <h6 className="text-[var(--highlight)] font-bold">ขอบคุณข้อมูลอ้างอิง ::</h6>
+                            <h6 className="text-[var(--highlight)] font-bold">ข้อมูลอ้างอิง ::</h6>
                             <p>
-                                <Link href={'https://multimedia.anamai.moph.go.th/infographics/info500_egg/'} className="underline hover:text-[var(--highlight)]">
+                                <Link href={'https://multimedia.anamai.moph.go.th/infographics/info500_egg/'} target="_blank" className="underline hover:text-[var(--highlight)]">
                                 เรื่องไข่กินแล้วดี มีประโยชน์
                                 </Link>
                             
                             </p>
                             <p>
-                                <Link href={'https://multimedia.anamai.moph.go.th/infographics/info348_covid19/'} className="underline hover:text-[var(--highlight)]">
+                                <Link href={'https://multimedia.anamai.moph.go.th/infographics/info348_covid19/'} target="_blank" className="underline hover:text-[var(--highlight)]">
                                 รู้ไว้..แต่ละ “ไข่” ไม่เหมือนกัน
                                 </Link>
                             

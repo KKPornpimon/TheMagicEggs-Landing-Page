@@ -7,7 +7,7 @@ export const HeroSection2Data = [
     },
     {
         title: "ชนิดของไข่",
-        image: "/images/element/egg.jpg",
+        image: "/images/element/gude8.jpg",
         link: "/type",
     },
     {

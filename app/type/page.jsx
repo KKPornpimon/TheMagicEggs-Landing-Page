@@ -1,4 +1,5 @@
 import { Egg } from "lucide-react"
+import Link from "next/link"
 
 const TypePage = () => {
   return (
@@ -93,6 +94,22 @@ const TypePage = () => {
                 </div>
                 
             </div> 
+
+            <div className="text-right mt-5 text-[12px]">
+                <h6 className="text-[var(--highlight)] font-bold">ข้อมูลอ้างอิง ::</h6>
+                <p>
+                    <Link href={'https://salehere.co.th/articles/kind-of-egg'} target="_blank" className="underline hover:text-[var(--highlight)]">
+                    ทำความรู้จัก ไข่แต่ละชนิด
+                    </Link>
+                
+                </p>
+                <p>
+                    <Link href={'https://www.greenery.org/g101-egg/'} target="_blank" className="underline hover:text-[var(--highlight)]">
+                    เรียงตามลำดับไข่
+                    </Link>
+                
+                </p>
+            </div>
             
         </div>
     </section>
