@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const BoilPage = () => {
   return (
-    <section id="type" className="bg-white/85">
+    <section id="boil" className="bg-white/85">
         <div className="container mt-[80px]">
             <h1 className="uppercase text-2xl font-semibold text-center mb-8"> :: วิธีต้มไข่ไม่ให้แตก </h1>
 
