@@ -1,22 +1,22 @@
 
 'use server'
 
-import { SavoryData } from "@/utils/SavoryData"
+import { DessertData } from "@/utils/DessertData";
 import { Egg, EggFried } from "lucide-react";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
 
-async function getSavoryMenu(id) {
-    const savoryMenu = SavoryData.find((item) => item.id === parseInt(id, 10));
-    return savoryMenu || null;
+async function getDessertMenu(id) {
+    const dessertMenu = DessertData.find((item) => item.id === parseInt(id, 10));
+    return dessertMenu || null;
 }
 
-export default async function SavoryRoute({ params }) {
+export default async function DessertRoute({ params }) {
 
     const { id } = await params
 
-    const data = await getSavoryMenu(id)
+    const data = await getDessertMenu(id)
     if (!data) redirect('/')
 
     return (
@@ -24,11 +24,11 @@ export default async function SavoryRoute({ params }) {
             <div className="container mt-[80px]">
 
                 <h1 className="uppercase text-2xl font-semibold text-center mb-7 flex items-center justify-center"> 
-                    <Egg fill="var(--main-color)" color="var(--main-color)" />
+                    <Egg fill="var(--krop)" color="var(--krop)" />
                     <span className="inline-block px-1"> วิธีการทำ{data.title} </span> 
-                    <EggFried fill="var(--main-color)" color="var(--main-color)" />
+                    <EggFried fill="var(--krop)" color="var(--krop)" />
                 </h1>
-                <p className="text-center font-semibold w-full md:w-[70%] mx-auto italic text-[14px] text-[var(--krop)] text-shadow-black">
+                <p className="text-center font-semibold w-full md:w-[70%] mx-auto italic text-[14px] text-[var(--main-color)] text-shadow-black">
                     {
                         data.description !== '' ? data.description : ""
                     }
@@ -37,7 +37,7 @@ export default async function SavoryRoute({ params }) {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-7 mt-10">
                     <div className="md:w-[300px] lg:w-[400px] md:h-[200px] lg:h-[300px] mx-auto"> <Image src={`${data.image}`} alt={data.title} width={400} height={400} className="w-full h-full object-cover rounded-lg" priority /> </div>
                     <div className="md:ml-10">
-                        <h3 className="text-[20px] font-bold px-5 py-1 bg-[var(--main-color)] rounded-md w-[100px] text-center">วัตถุดิบ</h3>
+                        <h3 className="text-[20px] font-bold px-5 py-1 bg-[var(--krop)] rounded-md w-[100px] text-center">วัตถุดิบ</h3>
                         <ul className="list-disc list-inside pl-5 mt-2">
                             {data.ingredient.map((item, index) => (
                                 <li key={index} className="text-[18px] pb-2">{item}</li>
@@ -46,7 +46,7 @@ export default async function SavoryRoute({ params }) {
                     </div>
                 </div>
                 <div className="mt-10 md:ml-10">
-                    <h3 className="text-[20px] font-bold px-5 py-1 bg-[var(--main-color)] rounded-md w-[100px] text-center">วิธีทำ</h3>
+                    <h3 className="text-[20px] font-bold px-5 py-1 bg-[var(--krop)] rounded-md w-[100px] text-center">วิธีทำ</h3>
                     <ul className="list-decimal list-inside pl-5 mt-2">
                         {data.todo.map((item, index) => (
                             <li key={index} className="text-[18px] pb-2">{item}</li>

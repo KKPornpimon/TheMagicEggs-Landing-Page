@@ -23,7 +23,7 @@ export const SavoryData = [
     {
         id: 2,
         title: "ไข่ตุ๋นกะหล่ำปลี",
-        description: "",
+        description: "ความหวานจากกำหล่ำปลีที่ได้แทรกซึมเข้าไปในไข่ตุ๋น ทำให้ไข่ตุ๋นมีรสชาติหวานอร่อยมากยิ่งขึ้น",
         image: "/images/savory/egg2.jpg",
         ingredient: [
             'กะหล่ำปลี 1 หัว',
@@ -45,7 +45,7 @@ export const SavoryData = [
     {
         id: 3,
         title: "ไข่ลูกเขย",
-        description: "ไข่อบมันเทศอร่อยๆ ที่ทำง่าย รวดเร็ว และแคลอรี่ต่ำ",
+        description: "ไข่ลูกเขย ที่มีรสชาติครบรส ทั้งเปรี้ยว หวาน มัน เค็ม เผ็ด เป็นรสชาติที่อยากแนะนำให้ลองทำกันดู ",
         image: "/images/savory/e4.jpg",
         ingredient: [
             'ไข่ไก่',

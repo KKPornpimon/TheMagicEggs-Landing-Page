@@ -1,6 +1,10 @@
+import DessertPage from "@/components/menuEgg/DessertPage"
+
 const Dessert = () => {
   return (
-    <div>Dessert</div>
+    <div>
+      <DessertPage />
+    </div>
   )
 }
 export default Dessert
