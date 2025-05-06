@@ -1,6 +1,10 @@
+import SavoryPage from "@/components/menuEgg/SavoryPage"
+
 const Savory = () => {
   return (
-    <div>Savory</div>
+    <div>
+      <SavoryPage />
+    </div>
   )
 }
 export default Savory

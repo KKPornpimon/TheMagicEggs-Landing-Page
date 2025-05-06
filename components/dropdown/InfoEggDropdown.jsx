@@ -21,7 +21,7 @@ const InfoEggDropdown = () => {
     <>
       <DropdownMenu>
         <DropdownMenuTrigger>
-          <div className="flex justify-center items-center hover:text-white cursor-pointer ">
+          <div className="flex justify-center items-center cursor-pointer ">
             ข้อมูลไข่ <ChevronDown size={20} />
           </div> 
         </DropdownMenuTrigger>

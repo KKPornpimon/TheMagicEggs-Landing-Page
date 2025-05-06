@@ -7,6 +7,8 @@
   --highlight2: #d93915;
   --skinegg: #f1cbb5;
   --skineggboil: #e09d5d;
+  --pink: #fb4556;
+  --krop: #f35c00;
 }
 
 @layer base {
@@ -30,7 +32,7 @@
     @apply mx-auto  px-4 py-8
   }
 
-  /* info egg */
+  /* info page */
   .tab-trigger {
     @apply  data-[state=active]:bg-[var(--main-color)] data-[state=active]:text-white 
     mx-3 cursor-pointer      
@@ -44,6 +46,8 @@
   .info-know li {
     @apply my-2
   }
+
+  /* adapt page */
   
 
 }

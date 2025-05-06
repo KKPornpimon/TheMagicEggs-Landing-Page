@@ -15,13 +15,38 @@ const Navbar = () => {
 
     const [nav, setNav] = useState(false)
     const pathname = usePathname()
-  
-      const openNav = () => {
-          setNav(!nav)
-      }
-      const closeNav = () => {
-          setNav(false)
-      }
+
+    
+    const openNav = () => {
+        setNav(!nav)
+    }
+    const closeNav = () => {
+        setNav(false)
+    }
+
+    const isActiveHome = ( pathname === '/' ) 
+          ? `relative w-fit font-semibold after:content-[''] 
+              after:h-[4px] after:block after:bg-emerald-500
+              hover:after:w-full hover:after:transition-all 
+              after:duration-500
+            ` 
+          : ''
+    
+    const isActiveAbout = ( pathname === '/about' ) 
+          ? `relative w-fit font-semibold after:content-[''] 
+              after:h-[4px] after:block after:bg-emerald-500
+              hover:after:w-full hover:after:transition-all 
+              after:duration-500
+            ` 
+          : ''
+
+    const isActiveContact = ( pathname === '/contact' ) 
+          ? `relative w-fit font-semibold after:content-[''] 
+              after:h-[4px] after:block after:bg-emerald-500
+              hover:after:w-full hover:after:transition-all 
+              after:duration-500
+            ` 
+          : ''
 
   return (
     <div className="bg-[var(--main-color)] w-full z-[999] fixed top-0 left-0 shadow-xl/20 overflow-hidden">
@@ -41,11 +66,11 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex overflow-hidden gap-4">
           
-            <Link href={'/'} className={`cursor-pointer hover:text-white `}> หน้าแรก </Link>
+            <Link href={'/'} className={`cursor-pointer ${isActiveHome} `}> หน้าแรก </Link>
             <InfoEggDropdown />
             <MenuEggDropdown />
-            <Link href={'/about'} className={`cursor-pointer hover:text-white `}> เกี่ยวกับ </Link>
-            <Link href={'/contact'} className={`cursor-pointer hover:text-white `}> ติดต่อ </Link>
+            <Link href={'/about'} className={`cursor-pointer ${isActiveAbout}`}> เกี่ยวกับ </Link>
+            <Link href={'/contact'} className={`cursor-pointer ${isActiveContact}`}> ติดต่อ </Link>
 
             {/* {
               NavLinks.map((item, index) => {
