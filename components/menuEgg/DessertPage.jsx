@@ -9,7 +9,7 @@ const DessertPage = () => {
         <section id="type" className="bg-white/85">
             <div className="container mt-[80px]">
                 <h1 className="uppercase text-2xl font-semibold text-center mb-8"> :: เมนูของหวาน </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-7 mt-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-7 mt-10">
                     {
                         DessertData.map((item) => {
                             return(

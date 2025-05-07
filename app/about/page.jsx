@@ -6,7 +6,7 @@ const About = () => {
       <div className="container mt-[80px]">
         <h2 className="uppercase text-2xl font-semibold text-center"> :: เกี่ยวกับ</h2>
         <div className="
-              w-[100%] sm:w-[80%] text-center pt-4 
+              w-[90%] sm:w-[80%] text-center pt-4 
               text-[16px] font-normal
               md:text-lg md:font-semibold 
               flex flex-col justify-center items-center mx-auto

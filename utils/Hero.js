@@ -36,16 +36,16 @@ export const HeroSection3Data = [
     {
         title: "เมนูอาหารคาว",
         image: "/images/hero/meal1.png",
-        link: "/nutrition",
+        link: "/savory",
     },
     {
         title: "เมนูของหวาน",
         image: "/images/hero/sweet2.png",
-        link: "/nutrition",
+        link: "/dessert",
     },
     {
         title: "เมนูทานเล่น",
         image: "/images/hero/snack1.png",
-        link: "/nutrition",
+        link: "/snact",
     },
 ]
