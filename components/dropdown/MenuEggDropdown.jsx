@@ -21,8 +21,8 @@ const MenuEggDropdown = () => {
     <>
       <DropdownMenu>
         <DropdownMenuTrigger>
-          <div className="flex justify-center items-center  cursor-pointer ">
-            เมนูไข่ <ChevronDown size={20} />
+          <div className="flex justify-center items-center  cursor-pointer text-[var(--main-color)] md:text-current font-bold md:font-normal">
+            เมนูไข่ <ChevronDown size={20}  />
           </div> 
         </DropdownMenuTrigger>
         <DropdownMenuContent className={'bg-white z-[1000]'}>

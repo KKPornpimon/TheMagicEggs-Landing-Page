@@ -47,10 +47,12 @@
     @apply my-2
   }
 
-  /* adapt page */
+
   
 
 }
+
+
 
 @theme {
     --animate-wiggle: wiggle 1.6s ease-in-out infinite;
