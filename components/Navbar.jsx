@@ -66,11 +66,11 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex overflow-hidden justify-center items-center gap-4">
           
-            <Link href={'/'} className={`cursor-pointer ${isActiveHome} `}> หน้าแรก </Link>
+            <Link href={'/'} className={`nav-bar cursor-pointer ${isActiveHome} `}> หน้าแรก </Link>
             <InfoEggDropdown />
             <MenuEggDropdown />
-            <Link href={'/about'} className={`cursor-pointer ${isActiveAbout}`}> เกี่ยวกับ </Link>
-            <Link href={'/contact'} className={`cursor-pointer ${isActiveContact}`}> ติดต่อ </Link>
+            <Link href={'/about'} className={`nav-bar cursor-pointer ${isActiveAbout}`}> เกี่ยวกับ </Link>
+            <Link href={'/contact'} className={`nav-bar cursor-pointer ${isActiveContact}`}> ติดต่อ </Link>
 
             {/* {
               NavLinks.map((item, index) => {
@@ -126,11 +126,11 @@ const Navbar = () => {
                   } */}
 
                   
-                    <Link href={'/'} className={`cursor-pointer text-[var(--main-color)] font-bold ${isActiveHome} `} onClick={closeNav}> หน้าแรก </Link>
+                    <Link href={'/'} className={`nav-bar cursor-pointer text-[var(--main-color)] font-bold ${isActiveHome} `} onClick={closeNav}> หน้าแรก </Link>
                     <InfoEggDropdown />
                     <MenuEggDropdown />
-                    <Link href={'/about'} className={`cursor-pointer text-[var(--main-color)] font-bold ${isActiveAbout}`} onClick={closeNav}> เกี่ยวกับ </Link>
-                    <Link href={'/contact'} className={`cursor-pointer text-[var(--main-color)] font-bold ${isActiveContact}`} onClick={closeNav}> ติดต่อ </Link>
+                    <Link href={'/about'} className={`nav-bar cursor-pointer text-[var(--main-color)] font-bold ${isActiveAbout}`} onClick={closeNav}> เกี่ยวกับ </Link>
+                    <Link href={'/contact'} className={`nav-bar cursor-pointer text-[var(--main-color)] font-bold ${isActiveContact}`} onClick={closeNav}> ติดต่อ </Link>
                   
               </div>
           </div>

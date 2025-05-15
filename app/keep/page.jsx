@@ -1,3 +1,4 @@
+import { BreadcrumbEggs } from "@/components/Breadcrumb"
 import { Egg, Heart } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -6,6 +7,7 @@ const KeepPage = () => {
   return (
     <section id="type" className="bg-white/85">
         <div className="container mt-[80px]">
+            <BreadcrumbEggs title="การเก็บไข่สดให้อยู่ได้นาน" />
             <h1 className="uppercase text-2xl font-semibold text-center mb-8"> :: การเก็บไข่สดให้อยู่ได้นาน </h1>
             <Image src={'/images/info/keep.jpg'} alt="การเก็บไข่สดให้อยู่ได้นาน" width={900} height={500} className="w-full h-auto object-cover bg-bottom" />
         

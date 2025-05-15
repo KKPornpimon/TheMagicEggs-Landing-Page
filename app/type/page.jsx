@@ -1,3 +1,4 @@
+import { BreadcrumbEggs } from "@/components/Breadcrumb"
 import { Egg } from "lucide-react"
 import Link from "next/link"
 
@@ -5,6 +6,7 @@ const TypePage = () => {
   return (
     <section  id="type" className="bg-white/85">
         <div className="container mt-[80px]">
+            <BreadcrumbEggs title="ไข่แต่ละชนิด" />
             <h1 className="uppercase text-2xl font-semibold text-center mb-8"> :: ไข่แต่ละชนิด </h1>
             <div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 bg-[var(--main-color)] p-5 mb-8 rounded-md">

@@ -48,6 +48,11 @@
   }
 
 
+  /* navbar page */
+  .nav-bar {
+    @apply cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-2 
+            hover:decoration-emerald-500 hover:transition-all hover:duration-500
+  }
   
 
 }

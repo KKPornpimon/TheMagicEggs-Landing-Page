@@ -1,9 +1,11 @@
+import { BreadcrumbEggs } from "@/components/Breadcrumb"
 import Image from "next/image"
 
 const BoilPage = () => {
   return (
     <section id="boil" className="bg-white/85">
         <div className="container mt-[80px]">
+            <BreadcrumbEggs title="วิธีต้มไข่ไม่ให้แตก" />
             <h1 className="uppercase text-2xl font-semibold text-center mb-8"> :: วิธีต้มไข่ไม่ให้แตก </h1>
 
             <div>

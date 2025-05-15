@@ -1,3 +1,4 @@
+import { BreadcrumbEggs } from "@/components/Breadcrumb"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -5,6 +6,7 @@ const EatPage = () => {
   return (
     <section id="type" className="bg-white/85">
         <div className="container mt-[80px]">
+            <BreadcrumbEggs title="กินไข่อย่างไรได้ประโยชน์" />
             <h1 className="uppercase text-2xl font-semibold text-center mb-8"> :: กินไข่อย่างไรได้ประโยชน์ </h1>
             <div>
                 <img src={'/images/info/eat_header.jpg'} alt="eating the egg" className="w-full h-[300px] object-cover" />

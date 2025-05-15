@@ -21,8 +21,13 @@ const InfoEggDropdown = () => {
     <>
       <DropdownMenu>
         <DropdownMenuTrigger>
-          <div className="flex justify-center items-center cursor-pointer text-[var(--main-color)] md:text-current font-bold md:font-normal">
-            ข้อมูลไข่ <ChevronDown size={20}  />
+          <div className="
+                  flex justify-center items-center 
+                  cursor-pointer hover:underline hover:underline-offset-4 hover:decoration-2 
+                  hover:decoration-emerald-500 hover:transition-all hover:duration-500
+                  text-[var(--main-color)] md:text-current font-bold md:font-normal
+          ">
+            ข้อมูลไข่
           </div> 
         </DropdownMenuTrigger>
         <DropdownMenuContent className={'bg-white z-[999]'}>

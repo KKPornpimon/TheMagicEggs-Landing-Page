@@ -1,6 +1,7 @@
 
 'use server'
 
+import { BreadcrumbID } from "@/components/Breadcrumb";
 import { SavoryData } from "@/utils/SavoryData"
 import { Egg, EggFried } from "lucide-react";
 import Image from "next/image";
@@ -22,7 +23,7 @@ export default async function SavoryRoute({ params }) {
     return (
         <div className="bg-white/90">
             <div className="container mt-[80px]">
-
+                <BreadcrumbID title="savory" />
                 <h1 className="uppercase text-2xl font-semibold text-center mb-7 flex items-center justify-center"> 
                     <Egg fill="var(--main-color)" color="var(--main-color)" />
                     <span className="inline-block px-1"> วิธีการทำ{data.title} </span> 

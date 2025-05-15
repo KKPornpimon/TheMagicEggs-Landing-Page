@@ -13,14 +13,15 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata = {
   title: "The Magic Eggs - Landing Page",
-  description: "Landing page about the egg",
+  description: "Landing page about the egg", 
+  keywords: "kanomsmile29, kanomwarn, egg, food, recipe, egg recipe, egg information",
+  icons: {
+    icon: "/images/element/logo1.png",
+    shortcut: "/images/element/logo1.png",
+    apple: "/images/element/logo1.png",
+  },
 };
 
 export default function RootLayout({ children }) {

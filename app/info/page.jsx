@@ -1,3 +1,4 @@
+import { BreadcrumbEggs } from "@/components/Breadcrumb";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Link from "next/link";
 
@@ -5,6 +6,7 @@ const Info = () => {
   return (
     <section id="info" className="bg-white/85">
         <div className="container mt-[80px]">
+            <BreadcrumbEggs title="info" /> 
             <div>
                 {/* <Tabs defaultValue="type" className="w-full flex justify-center items-center" orientation="vertical">
                     <TabsList>

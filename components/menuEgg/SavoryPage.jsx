@@ -1,12 +1,14 @@
 import { SavoryData } from "@/utils/SavoryData"
 import Image from "next/image"
 import Link from "next/link"
+import { BreadcrumbMenu } from "../Breadcrumb"
 
 const SavoryPage = () => {
   return (
     <>
         <section id="type" className="bg-white/85">
             <div className="container mt-[80px] pb-[50px]">
+                <BreadcrumbMenu title="เมนูอาหารคาว" />
                 <h1 className="uppercase text-2xl font-semibold text-center mb-8"> :: เมนูอาหารคาว </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-7 mt-10">
                     {

@@ -23,5 +23,5 @@ export const InfoEggs = [
 export const MenuEggs = [
     {label: 'เมนูอาหารคาว', path: '/savory'},
     {label: 'เมนูของหวาน', path: '/dessert'},
-    {label: 'เมนูทานเล่น', path: '/snack'},
+    // {label: 'เมนูทานเล่น', path: '/snack'},
 ]
